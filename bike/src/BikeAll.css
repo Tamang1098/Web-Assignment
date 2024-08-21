@@ -1,0 +1,13 @@
+
+.bike-all-container {
+    padding: 10px;
+}
+
+.bike-list {
+    display: flex;
+    flex-wrap: wrap; /* Add this line to wrap items to the next line */
+    gap: 30px;
+    margin-bottom: 10px;
+    margin-left:250px;
+
+}

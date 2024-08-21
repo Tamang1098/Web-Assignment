@@ -1,0 +1,83 @@
+/* Bike List Styles */
+.bike-list-container {
+    margin-left: 250px; /* Offset the container to the right of the sidebar */
+    padding: 20px;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+
+}
+
+.add-bike-button {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-bike-button:hover {
+    background-color: #2980b9;
+}
+
+.bike-list-table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+.bike-list-table th,
+.bike-list-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+
+
+}
+
+.bike-list-table th {
+    background-color: #f2f2f2;
+}
+
+.bike-image {
+    width: 100px; /* Set width of bike images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Rounded corners for images */
+}
+
+/* Action Buttons */
+.action-button {
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 5px; /* Space between buttons */
+}
+
+.edit-button {
+    background-color: #f39c12;
+    color: white;
+}
+
+.edit-button:hover {
+    background-color: #e67e22;
+}
+
+.delete-button {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.delete-button:hover {
+    background-color: #c0392b;
+}
+
+.bike-list-table  .bike-image {
+    width: 300px;
+    height: 300px;
+}
